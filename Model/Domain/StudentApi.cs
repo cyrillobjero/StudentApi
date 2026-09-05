@@ -1,0 +1,14 @@
+﻿namespace StudentApi.Model.Domain
+{
+    public class Student
+    {
+        public int Id { get; set; } // PK in DB
+        public string StudentNumber { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string Gender { get; set; }
+        public string Address { get; set; }
+        public DateOnly Birthday { get; set; }
+        public string Birthplace { get; set; }
+    }
+}
